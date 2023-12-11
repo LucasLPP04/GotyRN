@@ -1,0 +1,91 @@
+/* body {
+    background-color: #FFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+
+main {
+    background-color: #d4d4d4;
+    height: 720px;
+} */
+
+.all-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 75vw;
+}
+
+.tittle-crud {
+    height: fit-content;
+    font-weight: 200;
+    padding: 0.5rem 0.5rem ;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    width: 35vw;
+    height: 60px;
+    box-sizing: border-box;
+    border: 0.1px solid black;
+}
+
+.descricao {
+    height: 13.5rem;
+}
+
+.left-column {
+    width: fit-content;
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.right-column {
+    width: fit-content;
+    flex: 2;
+}
+
+button {
+    margin-top: 0.5rem;
+    width: 35vw;
+    height: 20vh;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 5rem;
+}
+
+.imagem-button {
+    height: 35vh;
+    width: 35vw;
+    margin-bottom: 0.5rem;
+    background-color: rgb(240, 240, 240);
+    color: rgb(107, 107, 107);
+    border: 1px dashed black;
+    margin: 0 auto;
+}
+
+.voltar {
+    font-size: xx-large;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
